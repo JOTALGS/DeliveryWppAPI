@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "whats",
+    "password": "password",
+    "database": "whatsmsgrest",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "whats",
+    "password": "password",
+    "database": "whatsmsgrest",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "whats",
+    "password": "password",
+    "database": "whatsmsgrest",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

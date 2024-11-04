@@ -1,0 +1,32 @@
+{
+  "name": "whatsapprestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node app/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2",
+    "twilio": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
